@@ -1,0 +1,35 @@
+102 MENU
+{
+ POPUP "&Archivo"
+ {
+  MENUITEM "Ejecuta&r", 1002
+  MENUITEM SEPARATOR
+  MENUITEM "&Editar cabecera iNES", 1003
+  MENUITEM SEPARATOR
+  MENUITEM "Re&frescar", 1004
+ }
+ POPUP "&Editar"
+ {
+  MENUITEM "En&contrar", 1005
+  MENUITEM SEPARATOR
+  MENUITEM "&Insertar.", 1007
+  MENUITEM "&Borrar", 1006
+  MENUITEM SEPARATOR
+  MENUITEM "&Limpiar", 1008
+ }
+ POPUP "&Ver"
+ {
+  MENUITEM "Líneas de re&jilla", 1009
+  MENUITEM "Ajustado a base de &datos", 1010
+  MENUITEM SEPARATOR
+  MENUITEM "Por enci&ma de todo", 1011
+  MENUITEM SEPARATOR
+  MENUITEM "&Alinear columnas", 1012
+ }
+ POPUP "&Opciones"
+ {
+  MENUITEM "&Rutas...", 1013
+  MENUITEM "&Columnas..", 1014
+  MENUITEM "C&olores..", 1015
+ }
+}

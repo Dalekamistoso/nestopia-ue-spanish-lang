@@ -1,0 +1,306 @@
+101 MENU
+{
+ POPUP "&File"
+ {
+  MENUITEM "&Abrir...", 803
+  MENUITEM "&Cerrar", 804
+  MENUITEM SEPARATOR
+  MENUITEM "Ca&rgar estado", 805
+  MENUITEM "&Salvar estado", 806
+  MENUITEM SEPARATOR
+  POPUP "Carga rápida de es&tado"
+  {
+   MENUITEM ".", 808
+   MENUITEM ".", 809
+   MENUITEM ".", 810
+   MENUITEM ".", 811
+   MENUITEM ".", 812
+   MENUITEM ".", 813
+   MENUITEM ".", 814
+   MENUITEM ".", 815
+   MENUITEM ".", 816
+   MENUITEM SEPARATOR
+   MENUITEM "Slot más re&ciente", 807
+  }
+  POPUP "Guardado rápid&o de estado"
+  {
+   MENUITEM ".", 818
+   MENUITEM ".", 819
+   MENUITEM ".", 820
+   MENUITEM ".", 821
+   MENUITEM ".", 822
+   MENUITEM ".", 823
+   MENUITEM ".", 824
+   MENUITEM ".", 825
+   MENUITEM ".", 826
+   MENUITEM SEPARATOR
+   MENUITEM "Slo&t más viejo", 817
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Editar cabezera iN&ES", 827
+  MENUITEM SEPARATOR
+  MENUITEM "Guardar capt&ura", 828
+  POPUP "Grabador de so&nido"
+  {
+   MENUITEM "&Archivo...", 838
+   MENUITEM "&Grabar", 839
+   MENUITEM "&Parar", 837
+   MENUITEM "R&ebobinar", 836
+  }
+  POPUP "Reproductor de películ&as"
+  {
+   MENUITEM "&Archivo", 829
+   MENUITEM "&Grabar", 830
+   MENUITEM "&Reproducir", 831
+   MENUITEM "&Parar", 832
+   MENUITEM "R&ebobinar", 833
+   MENUITEM "A&vance rápido", 834
+   MENUITEM SEPARATOR
+   MENUITEM "Exportar a &AVI...", 835
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Lan&zador...", 858
+  MENUITEM SEPARATOR
+  POPUP "Archivos recien&tes"
+  {
+   MENUITEM ".", 840
+   MENUITEM ".", 841
+   MENUITEM ".", 842
+   MENUITEM ".", 843
+   MENUITEM ".", 844
+   MENUITEM ".", 845
+   MENUITEM ".", 846
+   MENUITEM ".", 847
+   MENUITEM ".", 848
+   MENUITEM SEPARATOR
+   MENUITEM "&Bloquear", 849
+   MENUITEM "&Limpiar", 850
+  }
+  POPUP "&Directorios recientes"
+  {
+   MENUITEM ".", 851
+   MENUITEM ".", 852
+   MENUITEM ".", 853
+   MENUITEM ".", 854
+   MENUITEM ".", 855
+   MENUITEM SEPARATOR
+   MENUITEM "&Bloquear", 856
+   MENUITEM "&Limpiar", 857
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Sal&ir", 859
+ }
+ POPUP "&Máquina"
+ {
+  MENUITEM ".", 860
+  POPUP "&Reinicar"
+  {
+   MENUITEM "&Soft", 861
+   MENUITEM "&Hard", 862
+  }
+  MENUITEM SEPARATOR
+  POPUP "&Entradas"
+  {
+   MENUITEM "&Auto seleccionar", 863
+   MENUITEM SEPARATOR
+   POPUP "Puerto &1"
+   {
+    MENUITEM "&Desconectado", 864
+    MENUITEM "Pad &1", 865
+    MENUITEM "Pad &2", 866
+    MENUITEM "Pad &3", 867
+    MENUITEM "Pad &4", 868
+    MENUITEM "&Arkanoid", 870
+    MENUITEM "&Ratón", 873
+    MENUITEM "Power &Glove", 872
+    MENUITEM "Power &Pad", 871
+    MENUITEM "&R.O.B.", 874
+    MENUITEM "&Zapper", 869
+   }
+   POPUP "Port &2"
+   {
+    MENUITEM "&Desconectado", 875
+    MENUITEM "Pad &1", 876
+    MENUITEM "Pad &2", 877
+    MENUITEM "Pad &3", 878
+    MENUITEM "Pad &4", 879
+    MENUITEM "&Arkanoid", 881
+    MENUITEM "&Ratón", 884
+    MENUITEM "Power &Glove", 883
+    MENUITEM "Power &Pad", 882
+    MENUITEM "&R.O.B.", 885
+    MENUITEM "&Zapper", 880
+   }
+   POPUP "Port &3"
+   {
+    MENUITEM "&Desconectado", 886
+    MENUITEM "Pad &1", 887
+    MENUITEM "Pad &2", 888
+    MENUITEM "Pad &3", 889
+    MENUITEM "Pad &4", 890
+   }
+   POPUP "Port &4"
+   {
+    MENUITEM "&Desconectado", 891
+    MENUITEM "Pad &1", 892
+    MENUITEM "Pad &2", 893
+    MENUITEM "Pad &3", 894
+    MENUITEM "Pad &4", 895
+   }
+   POPUP "Puerto de &expansión"
+   {
+    MENUITEM "&Desconectado", 896
+    MENUITEM "&Arkanoid", 903
+    MENUITEM "&Bandai Hyper Shot", 906
+    MENUITEM "B&arcode World", 914
+    MENUITEM "&Crazy Climber", 907
+    MENUITEM "&Doremikko", 900
+    MENUITEM "&Exciting Boxing", 909
+    MENUITEM "Family &BASIC", 898
+    MENUITEM "Family &Trainer", 897
+    MENUITEM "&Hori Track", 901
+    MENUITEM "&Konami Hyper Shot", 905
+    MENUITEM "&Mahjong", 908
+    MENUITEM "&Oeka Kids", 904
+    MENUITEM "&Pachinko", 902
+    MENUITEM "Pa&rty Tap", 912
+    MENUITEM "Pokku&n Moguraa", 911
+    MENUITEM "&Subor", 899
+    MENUITEM "&Top Rider", 910
+    MENUITEM "T&urbo File", 913
+   }
+   MENUITEM SEPARATOR
+   POPUP "Adaptador para cuatr&o jugadores"
+   {
+    MENUITEM "&Auto", 915
+    MENUITEM "&NES", 916
+    MENUITEM "&Famicom", 917
+   }
+  }
+  POPUP "&Externo"
+  {
+   POPUP "&Disk System"
+   {
+    POPUP "&Insertar"
+    {
+     MENUITEM ".", 921
+     MENUITEM ".", 922
+     MENUITEM ".", 923
+     MENUITEM ".", 924
+     MENUITEM ".", 925
+     MENUITEM ".", 926
+     MENUITEM ".", 927
+     MENUITEM ".", 928
+     MENUITEM ".", 929
+     MENUITEM ".", 930
+     MENUITEM ".", 931
+     MENUITEM ".", 932
+     MENUITEM ".", 933
+     MENUITEM ".", 934
+     MENUITEM ".", 935
+     MENUITEM ".", 936
+    }
+    MENUITEM "&Cambiar cara", 918
+    MENUITEM "&Expulsar", 919
+    MENUITEM SEPARATOR
+    MENUITEM "&Opciones...", 920
+   }
+   POPUP "&Teclado"
+   {
+    MENUITEM "&Pegar texto", 937
+   }
+   POPUP "Grabador de &cinta"
+   {
+    MENUITEM "&Archivo", 938
+    MENUITEM "&Grabar", 939
+    MENUITEM "&Reproducir", 940
+    MENUITEM "&Parar", 941
+   }
+   MENUITEM SEPARATOR
+   MENUITEM "Lector de códigos de &barras", 943
+   MENUITEM "DIP &Switches...", 942
+  }
+  POPUP "Reproductor &NSF"
+  {
+   MENUITEM "&Reproducir", 950
+   MENUITEM "&Parar", 951
+   MENUITEM "&Siguiente pista", 952
+   MENUITEM "Pista &previa", 953
+   MENUITEM SEPARATOR
+   MENUITEM "Reproducir de f&ondo", 954
+  }
+  POPUP "Re&gion"
+  {
+   MENUITEM "&Auto", 944
+   MENUITEM "&NTSC", 945
+   MENUITEM "&PAL", 946
+  }
+  POPUP "&Opciones"
+  {
+   MENUITEM "Sin límite de &Sprites", 948
+   MENUITEM "Activar &DIP Switches al cargar", 949
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "P&ausa", 947
+ }
+ POPUP "Juego en &red"
+ {
+  MENUITEM ".", 955
+  MENUITEM "&Chatear", 956
+ }
+ POPUP "&Ver"
+ {
+  MENUITEM "&Info de imagen", 957
+  MENUITEM "Archivo de re&gistro", 970
+  MENUITEM SEPARATOR
+  POPUP "Tamaño de pa&ntalla"
+  {
+   MENUITEM ".", 959
+   MENUITEM ".", 960
+   MENUITEM ".", 961
+   MENUITEM ".", 962
+   MENUITEM ".", 963
+   MENUITEM ".", 964
+   MENUITEM ".", 965
+   MENUITEM ".", 966
+   MENUITEM ".", 967
+   MENUITEM "&Max", 968
+   MENUITEM SEPARATOR
+   MENUITEM "&Aspecto de TV", 969
+  }
+  POPUP "M&ostrar"
+  {
+   MENUITEM "&Menú / Diálogos", 972
+   MENUITEM "Barra de e&stado", 971
+   MENUITEM "Por enci&ma de todo", 973
+   MENUITEM "&FPS", 974
+  }
+  MENUITEM SEPARATOR
+  MENUITEM ".", 958
+ }
+ POPUP "&Opciones"
+ {
+  MENUITEM "&Video...", 975
+  MENUITEM "&Sonido..", 976
+  MENUITEM "&Entrada.", 977
+  MENUITEM "&Timing...", 978
+  MENUITEM "&Rutas...", 979
+  MENUITEM "P&referencias..", 981
+  MENUITEM "&Trucos...", 980
+  MENUITEM "Base de &datos", 982
+  MENUITEM "&Lenguaje...", 983
+  MENUITEM SEPARATOR
+  POPUP "&Auto guardado"
+  {
+   MENUITEM "&Opciones..", 984
+   MENUITEM ".", 985
+  }
+ }
+ POPUP "&Ayuda"
+ {
+  MENUITEM "&Ayuda...", 986
+  MENUITEM "&Licencia..", 988
+  MENUITEM SEPARATOR
+  MENUITEM "&Acerca de", 987
+ }
+}

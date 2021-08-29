@@ -1,0 +1,14 @@
+160 DIALOGEX 0, 0, 161, 157, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUPWINDOW | WS_CAPTION
+CAPTION "Acerca de Nestopia"
+FONT 8, "MS Shell Dlg", 400, FALSE
+{
+ GROUPBOX "", -1, 7, 7, 147, 141
+ LTEXT "Nestopia UE 1.51.0", 3404, 47, 14, 63, 9
+ ICON "", 3400, 70, 36, 21, 20
+ CTEXT "Copyright © 2003-2008 Martin Freij\nCopyright © 2012-2021 R. Danbrook\nCopyright © 2020-2021 Rupert Carmichael\nTraducido por Carlos Romero (2021)", -1, 12, 69, 139, 35
+ LTEXT "Homepage", -1, 13, 124, 8, 1
+ CTEXT "0ldsk00l.ca/nestopia", 3401, 46, 107, 67, 8, SS_NOTIFY
+ DEFPUSHBUTTON "Aceptar", 1, 62, 125, 37, 13
+ LTEXT "Contact", -1, 148, 123, 8, 1
+}

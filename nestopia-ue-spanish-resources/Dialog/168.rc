@@ -1,0 +1,14 @@
+168 DIALOGEX 0, 0, 177, 97, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUPWINDOW | WS_CAPTION
+CAPTION "Opciones de filtro"
+FONT 8, "MS Shell Dlg", 400, FALSE
+{
+ DEFPUSHBUTTON "Aceptar", 1, 64, 76, 50, 14
+ PUSHBUTTON "Cancelar", 2, 120, 76, 50, 14
+ GROUPBOX "Líneas de entrelazado (Scanlines)", -1, 7, 7, 163, 34
+ CONTROL "", 2652, "msctls_trackbar32", WS_GROUP | WS_TABSTOP | 0x00000018, 14, 18, 127, 16
+ CTEXT "", 2653, 143, 20, 20, 12, SS_SUNKEN
+ GROUPBOX "", -1, 7, 43, 163, 27
+ AUTOCHECKBOX "Interpolación Bilinear", 2651, 14, 54, 81, 9, WS_GROUP
+ PUSHBUTTON "Por defecto", 2650, 7, 76, 50, 14, WS_GROUP
+}

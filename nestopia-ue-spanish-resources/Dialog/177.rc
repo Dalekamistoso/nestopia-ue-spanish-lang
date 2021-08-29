@@ -1,0 +1,51 @@
+177 DIALOGEX 0, 0, 363, 259, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUPWINDOW | WS_CAPTION
+CAPTION "Preferencias"
+FONT 8, "MS Shell Dlg", 400, FALSE
+{
+ GROUPBOX "Preferencias", -1, 7, 7, 145, 179
+ AUTOCHECKBOX "Iniciar emulación automáticamente", 2806, 14, 23, 125, 10, WS_GROUP
+ AUTOCHECKBOX "Ejecutar en segundo plano", 2805, 14, 39, 100, 10
+ AUTOCHECKBOX "Iniciar a pantalla completa", 2801, 14, 55, 113, 10
+ AUTOCHECKBOX "Quitar avisos pedantes/notas", 2802, 14, 71, 137, 10
+ AUTOCHECKBOX "Descargar imagen antes de salir", 2803, 14, 87, 125, 10
+ AUTOCHECKBOX "Confirmar reinicio / apagado", 2810, 14, 103, 110, 10
+ AUTOCHECKBOX "Confirmar salida", 2804, 14, 119, 70, 10
+ AUTOCHECKBOX "Permitir varias instancias", 2808, 14, 135, 127, 10
+ AUTOCHECKBOX "Habilitar registro de mensajes", 2807, 14, 151, 120, 10
+ GROUPBOX "Asociaciones de archivo", -1, 158, 7, 198, 75
+ ICON "", 2815, 169, 23, 21, 20
+ ICON "", 2816, 216, 23, 21, 20
+ ICON "", 2817, 264, 23, 21, 20
+ ICON "", 2818, 312, 23, 21, 20
+ AUTOCHECKBOX ".NES", 2819, 167, 50, 31, 10, WS_GROUP
+ AUTOCHECKBOX ".UNF", 2820, 215, 50, 32, 10
+ AUTOCHECKBOX ".FDS", 2821, 264, 50, 31, 10
+ AUTOCHECKBOX ".NSF", 2822, 312, 50, 31, 10
+ AUTORADIOBUTTON "Estilo NES", 2823, 167, 68, 46, 10, WS_GROUP
+ AUTORADIOBUTTON "Estilo Famicom", 2824, 288, 68, 61, 10
+ GROUPBOX "Color menú en Fullscreen", -1, 158, 85, 97, 41
+ PUSHBUTTON "Editar", 2828, 208, 95, 36, 13, WS_GROUP
+ AUTOCHECKBOX "Por defecto", 2826, 167, 113, 50, 8, WS_GROUP
+ GROUPBOX "Color de menú en escritorio", -1, 259, 84, 97, 41
+ PUSHBUTTON "Editar", 2829, 311, 94, 36, 13, WS_GROUP
+ AUTOCHECKBOX "Por defecto", 2827, 270, 112, 56, 8, WS_GROUP
+ GROUPBOX "Sistema preferido", -1, 7, 190, 247, 48
+ AUTORADIOBUTTON "NES NTSC", 2830, 19, 208, 48, 10
+ AUTORADIOBUTTON "NES PAL", 2831, 84, 208, 43, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Famicom", 2832, 144, 208, 43, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Dendy", 2834, 204, 208, 34, 10, NOT WS_TABSTOP
+ AUTOCHECKBOX "Preguntar", 2833, 197, 223, 50, 12
+ GROUPBOX "Guardar al salir", -1, 259, 133, 97, 89
+ AUTOCHECKBOX "Lista de juego en red", 2812, 265, 148, 85, 10, WS_GROUP
+ AUTOCHECKBOX "Lista de lanzador", 2809, 265, 163, 70, 10
+ AUTOCHECKBOX "Lista de trucos", 2811, 265, 178, 70, 10
+ AUTOCHECKBOX "Tamaño ventana lanz.", 2814, 265, 193, 84, 10
+ AUTOCHECKBOX "Posición de ventana", 2813, 265, 208, 77, 10
+ PUSHBUTTON "Por defecto", 2800, 192, 242, 50, 15, WS_GROUP
+ DEFPUSHBUTTON "Aceptar", 1, 249, 242, 50, 15
+ PUSHBUTTON "Cancelar", 2, 306, 242, 50, 15
+ GROUPBOX "Prioridad de aplicación", -1, 158, 133, 96, 36
+ COMBOBOX 1001, 165, 148, 84, 46, CBS_DROPDOWNLIST | WS_VSCROLL | WS_GROUP
+ AUTOCHECKBOX "Desactivar mensajes de estado", 1002, 14, 167, 120, 8
+}
